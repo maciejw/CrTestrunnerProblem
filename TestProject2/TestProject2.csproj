@@ -59,10 +59,10 @@
     <Compile Include="UnitTest1.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="test.txt">
+    <Content Include="test2.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="TestDatabase.sdf">
+    <Content Include="TestDatabase2.sdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
   </ItemGroup>

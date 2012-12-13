@@ -9,7 +9,7 @@ using NHibernate.Mapping.ByCode.Conformist;
 using NHibernate.Cfg.MappingSchema;
 using NHibernate;
 
-namespace Project3
+namespace TestProject3
 {
     public class TestClassMap : ClassMapping<TestClass>
     {
@@ -53,7 +53,7 @@ namespace Project3
             cfg.DataBaseIntegration(c =>
             {
                 c.Dialect<NHibernate.Dialect.MsSqlCe40Dialect>();
-                c.ConnectionString = @"Data Source=TestDatabase.sdf";
+                c.ConnectionString = @"Data Source=TestDatabase3.sdf";
                 c.KeywordsAutoImport = Hbm2DDLKeyWords.AutoQuote;
                 c.SchemaAction = SchemaAutoAction.Create;
             });

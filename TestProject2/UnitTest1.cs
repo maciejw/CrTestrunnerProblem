@@ -13,8 +13,8 @@ namespace TestProject2
     {
         private SqlCeConnection _c;
         private SqlCeTransaction _t;
-        private const string STR_TestDatabasesdf = "TestDatabase.sdf";
-        private const string STR_Testtxt = "test.txt";
+        private const string STR_TestDatabasesdf = "TestDatabase2.sdf";
+        private const string STR_Testtxt = "test2.txt";
 
 
         [TestFixtureSetUp]
